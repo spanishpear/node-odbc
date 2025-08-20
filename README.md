@@ -645,7 +645,7 @@ odbc.connect(`${process.env.CONNECTION_STRING}`, (error, connection) => {
 Closes an open connection. Any transactions on the connection that have not been ended will be rolledback.
 
 #### Parameters:
-* **callback?**: The function called when `.close` has finished clsoing the connection. If no callback function is given, `.close` will return a native JavaScript `Promise`. Callback signature is:
+* **callback?**: The function called when `.close` has finished closing the connection. If no callback function is given, `.close` will return a native JavaScript `Promise`. Callback signature is:
     * error: The error that occured in execution, or `null` if no error
 
 #### Examples:
